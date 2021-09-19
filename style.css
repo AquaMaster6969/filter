@@ -1,0 +1,24 @@
+#HEADING{
+    color: rgb(203, 232, 248);
+    font-variant: small-caps;
+    font-family: 'Gaegu', cursive;
+    font-weight: bolder;
+    font-size: 100px;
+    text-shadow: 4px 4px rgb(106, 159, 202);
+    background-color: rgb(255, 227, 248);
+    max-width: 1000px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 8px rgb(236, 204, 224);
+
+    background: linear-gradient( rgb(255, 227, 234), rgb(255, 227, 234) 50%, rgb(223, 242, 253) 50%, rgb(223, 242, 253));
+    background-size: 100% 200%;
+    transition: all 1s ease;
+}
+
+#HEADING:hover{
+    box-shadow: 9px 9px 8px rgb(179, 219, 224);
+    background-position: 100% 100%;
+    color: pink;
+    text-shadow: 4px 4px palevioletred;
+
+}
